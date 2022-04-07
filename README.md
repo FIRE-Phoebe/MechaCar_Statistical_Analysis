@@ -28,7 +28,30 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 
 ## T-Tests on Suspension Coils
-briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+### Overall Manufacturing lots
+<img src='Resources/images/t_test_all_lots.PNG' width=500 height=200>
+According to the result, our p-value is slightly above the significance level was the common 0.05%. Therefore, we fail to reject the null hypotheses. In order words, the PSI across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square ich.
+
+### Individual Manufacturing Lots
+- Lot 1 Result:
+Based on the result, the Lot_1 p-value is equal to 1, which is much larger than significant level that we do not have sufficient evidence to reject the null hypothesis. In order words, the PSI across manufacturing Lot_1 is not statistically different from the population mean of 1,500 pounds per square inch. Also, we could state that we're making the Type I error for sure when the null hypothesis is true.
+<img src='Resources/images/Lot1_t_test.PNG' width=500 height=250>
+
+
+
+- Lot 2 Result:
+Based on the result, the Lot_2 p-value is also much larger than significant level that we do not have sufficient evidence to reject the null hypothesis. In order words, the PSI across manufacturing Lot_2 is not statistically different from the population mean of 1,500 pounds per square inch. 
+
+<img src='Resources/images/Lot2_t_test.PNG' width=500 height=250>
+
+
+- Lot 3 Result:
+Based on the result, the Lot_3 p-value is smaller than significant level that we do have sufficient evidence to reject the null hypothesis. In order words, the PSI across manufacturing Lot_3 is statistically different from the population mean of 1,500 pounds per square inch.
+
+<img src='Resources/images/Lot3_t_test.PNG' width=500 height=250>
+
+ 
+
 
 ## Study Design: MechaCar vs Competition
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.

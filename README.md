@@ -29,8 +29,8 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## T-Tests on Suspension Coils
 ### Overall Manufacturing Lots
-
 According to the result, our p-value is slightly above the significance level was the common 0.05%. Therefore, we fail to reject the null hypotheses. In order words, the PSI across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square ich.
+
 <img src='Resources/images/all_lots.PNG' width=500 height=200>
 
 
